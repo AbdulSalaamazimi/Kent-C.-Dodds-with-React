@@ -21,14 +21,6 @@ const EpicData = ({ className, imgUrl, imgAlt, heading, paragraph, linkUrl }) =>
     )
 }
 
-EpicData.propTypes = {
-    className: PropTypes.string.isRequired,
-    imgUrl: PropTypes.string.isRequired,
-    imgAlt: PropTypes.string.isRequired,
-    heading: PropTypes.string.isRequired,
-    paragraph: PropTypes.string.isRequired,
-    linkUrl: PropTypes.string.isRequired,
-}
 
 function EpicCourse({ paragraph }) {
     return (
@@ -62,4 +54,12 @@ EpicCourse.propTypes = {
     paragraph: PropTypes.string.isRequired,
 }
 
+EpicData.propTypes = {
+    className: PropTypes.string.isRequired,
+    imgUrl: PropTypes.string.isRequired,
+    imgAlt: PropTypes.string.isRequired,
+    heading: PropTypes.string.isRequired,
+    paragraph: PropTypes.string.isRequired,
+    linkUrl: PropTypes.string.isRequired,
+}
 export default EpicCourse;

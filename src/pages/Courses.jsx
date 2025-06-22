@@ -3,6 +3,8 @@ import Hero from "../layout/Hero";
 import Wheel from "../img/one_wheel.webp";
 import DeveloperEdge from "../components/DeveloperEdge";
 import EpicCourse from "../layout/EpicCourse";
+// import CourseCard from "../layout/CourseCard";
+import CourseList from "../components/CourseList";
 
 
 function Courses() {
@@ -28,7 +30,7 @@ function Courses() {
             <main className="relative !mx-[10-vw]">
             <DeveloperEdge />
             <EpicCourse className="mt-50" paragraph="Become a full stack web dev."/>
-
+            <CourseList />
             </main>
         </>
     )
