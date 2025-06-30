@@ -10,3 +10,8 @@ Currently, two official plugins are available:
 # Tailwind CSS + React 
 
 I am working on this repository with React and Tailwind CSS
+
+# Diffrence beatwen this project and HTML version + New Features
+
+1 : The first feature is in this project you can change the light mode from dark mode to light mode.
+2 : The second feature is React and tailwind css that I use react router and utilites classes.

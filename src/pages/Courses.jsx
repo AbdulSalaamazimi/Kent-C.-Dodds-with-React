@@ -28,9 +28,9 @@ function Courses() {
                 }  
             />
             <main className="relative !mx-[10-vw]">
-            <DeveloperEdge />
-            <EpicCourse className="mt-50" paragraph="Become a full stack web dev."/>
-            <CourseList />
+                <DeveloperEdge />
+                <EpicCourse className="mt-50" paragraph="Become a full stack web dev."/>
+                <CourseList />
             </main>
         </>
     )
